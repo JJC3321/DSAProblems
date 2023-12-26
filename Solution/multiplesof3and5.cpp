@@ -12,7 +12,8 @@ Find the sum of all the multiples of 3 or 5 below 1000.
 Solution:
 Using the initial count of 23 for all sums multiples of 3 or 5 
 we then use a for loop to add any natural numbers that are
-multiples of 3 or 5 until we reach 1000. Then, get the total.
+multiples of 3 or 5 until we reach 1000. Use modulo to
+check if the number is a multiple of 3 or 5, and then get the total.
 */
 
 int main()
