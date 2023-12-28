@@ -11,7 +11,7 @@ What is the 10001st prime number?
 
 Solution:
 Brute force: generated prime numbers with  
-Sieve of Eratostheens intill we have the 10001st prime.
+Sieve of Eratosthenes until we have the 10001st prime.
 */
 void sieveOfEratosthenes(unsigned long int n, vector<int>& primeNumbers) {
     
